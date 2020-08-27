@@ -13,7 +13,7 @@ Apply the Adobe Reader Pro DC STIGs in one simple script.
 
 ## How to run the script
 
-**The script may be lauched from the extracted GitHub download like this:**
+**The script may be launched from the extracted GitHub download like this:**
 
 ```
 .\sos-adobe-stig.ps1
