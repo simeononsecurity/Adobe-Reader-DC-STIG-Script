@@ -1,5 +1,5 @@
 
-# Automate Oracle JRE 8 STIGS
+# Automate Adobe Reader Pro DC STIG
 
 Apply the Adobe Reader Pro DC STIGs in one simple script.
 
