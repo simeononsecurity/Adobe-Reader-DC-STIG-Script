@@ -3,7 +3,7 @@
 
 Apply the Adobe Reader Pro DC STIGs in one simple script.
 
-# Notes
+## Notes:
 
 **This script is designed for use in Enterprise environments and will insure 100% compliance with the applicable stigs.**
 
@@ -17,7 +17,7 @@ Apply the Adobe Reader Pro DC STIGs in one simple script.
 
 You may download the script from the [GitHub Repository](https://github.com/simeononsecurity/Adobe-Reader-DC-STIG-Script)
 
-## How to run the script
+## How to run the script:
 
 **The script may be launched from the extracted GitHub download like this:**
 
