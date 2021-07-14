@@ -12,7 +12,9 @@ do {} until (Elevate-Privileges SeTakeOwnershipPrivilege)
 #Unblock all files required for script
 Get-ChildItem *.ps*1 -recurse | Unblock-File
 
-#Adobe Reader DC STIG
+
+
+Write-Host "Implementing Adobe Reader DC STIG..." -ForegroundColor Green -BackgroundColor Black
 New-Item -Path "HKLM:\Software\Policies\Adobe\Acrobat Reader\DC\FeatureLockDown\" -Name cCloud
 New-Item -Path "HKLM:\Software\Policies\Adobe\Acrobat Reader\DC\FeatureLockDown\" -Name cDefaultLaunchURLPerms
 New-Item -Path "HKLM:\Software\Policies\Adobe\Acrobat Reader\DC\FeatureLockDown\" -Name cServices
@@ -43,4 +45,7 @@ Set-ItemProperty -Path "HKLM:\Software\Policies\Adobe\Acrobat Reader\DC\FeatureL
 Set-ItemProperty -Path "HKLM:\Software\Policies\Adobe\Acrobat Reader\DC\FeatureLockDown\cWelcomeScreen" -Name bShowWelcomeScreen -Type DWORD -Value 0 -Force
 Set-ItemProperty -Path "HKLM:\Software\Wow6432Node\Adobe\Acrobat Reader\DC\Installer" -Name DisableMaintenance -Type DWORD -Value 1 -Force
 
+Write-Host "Implementing Adobe Reader DC STIG GPO..." -ForegroundColor White -BackgroundColor Black
 .\Files\LGPO\LGPO.exe /g .\Files\GPO\
+
+Write-Host "Done" -ForegroundColor Green -BackgroundColor Black
