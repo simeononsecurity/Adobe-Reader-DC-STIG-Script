@@ -12,7 +12,8 @@ do {} until (Elevate-Privileges SeTakeOwnershipPrivilege)
 #Unblock all files required for script
 Get-ChildItem *.ps*1 -recurse | Unblock-File
 
-
+#Set Directory to PSScriptRoot
+if ((Get-Location).Path -NE $PSScriptRoot) { Set-Location $PSScriptRoot }
 
 Write-Host "Implementing Adobe Reader DC STIG..." -ForegroundColor Green -BackgroundColor Black
 New-Item -Path "HKLM:\Software\Policies\Adobe\Acrobat Reader\DC\FeatureLockDown\" -Name cCloud
