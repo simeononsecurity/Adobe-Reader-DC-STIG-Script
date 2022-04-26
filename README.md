@@ -7,6 +7,11 @@ Apply the Adobe Reader Pro DC STIGs in one simple script.
 
 **This script is designed for use in Enterprise environments and will insure 100% compliance with the applicable stigs.**
 
+## Ansible:
+We now offer a playbook collection for this script. Please see the following:
+- [Github Repo](https://github.com/simeononsecurity/Windows_STIG_Ansible)
+- [Ansible Galaxy](https://galaxy.ansible.com/simeononsecurity/windows_stigs)
+
 ## STIGS/SRGs Applied:
 
 - [Adobe Reader Pro DC Continous V1R2](https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_Adobe_Acrobat_Pro_DC_Classic_V1R3_STIG.zip)
