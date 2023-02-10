@@ -1,6 +1,8 @@
 
 # Automate Adobe Reader Pro DC STIG
 
+[![VirusTotal Scan](https://github.com/simeononsecurity/Adobe-Reader-DC-STIG-Script/actions/workflows/virustotal.yml/badge.svg)](https://github.com/simeononsecurity/Adobe-Reader-DC-STIG-Script/actions/workflows/virustotal.yml)
+
 Apply the Adobe Reader Pro DC STIGs in one simple script.
 
 ## Notes:
