@@ -32,3 +32,4 @@ You may download the script from the [GitHub Repository](https://github.com/sime
 .\sos-adobe-stig.ps1
 ```
 
+## [Learn more about applying STIGS on Adobe Reader DC](https://simeononsecurity.ch/github/adobe-reader-dc-stig-script/)
